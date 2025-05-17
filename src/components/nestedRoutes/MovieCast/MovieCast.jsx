@@ -19,6 +19,9 @@ const MovieCast = () => {
       try {
         const data = await fetchCastMovieById(movieId);
         setMovieCast(data.cast);
+        if (data.cast.length === 0) {
+          toast.error('Keine Info vorhanden.');
+        }
       } catch (error) {
         console.error(error);
         setIsError(true);
