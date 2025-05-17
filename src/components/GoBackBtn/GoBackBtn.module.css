@@ -1,0 +1,16 @@
+.link {
+  display: inline-block;
+  letter-spacing: 0.06em;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 12px 18px;
+  font-weight: 700;
+  color: azure;
+  background-color: blue;
+  transition: transform 0.2s ease, background-color 0.3s;
+}
+
+.link:hover,
+.link:focus {
+  background-color: #ffcc00;
+}

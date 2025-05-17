@@ -1,0 +1,19 @@
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.link {
+  font-size: 24px;
+  font-weight: 600;
+  color: azure;
+}
+
+.navLink:hover {
+  color: #ffcc00;
+}
+
+.activeLink {
+  color: red;
+}

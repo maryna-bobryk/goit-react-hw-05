@@ -1,0 +1,33 @@
+.castList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin: 20px auto;
+}
+
+.castItem {
+  width: 130px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  padding: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.castItem:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.castImage {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  background-color: #ddd;
+}
+
+.castItem p {
+  font-size: 14px;
+}
